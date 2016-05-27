@@ -22,8 +22,8 @@
     "react"
   ],
   "dependencies": {
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
     "vdom-benchmark-base": "^0.2.4"
   },
   "devDependencies": {
