@@ -2,8 +2,8 @@ var benchmark = require('vdom-benchmark-base');
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var NAME = 'React';
-var VERSION = '0.14.6';
+var NAME = 'Preact';
+var VERSION = '4.8.0';
 
 function renderTree(nodes) {
   var children = [];

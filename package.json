@@ -22,6 +22,9 @@
     "react"
   ],
   "dependencies": {
+    "preact": "^4.8.0",
+    "preact-compat": "^1.7.1",
+    "proptypes": "^0.14.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "vdom-benchmark-base": "^0.2.4"
