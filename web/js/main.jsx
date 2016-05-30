@@ -1,6 +1,6 @@
 var benchmark = require('vdom-benchmark-base');
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { h, Component, render } from 'preact';
+/** @jsx h */
 
 var NAME = 'Preact';
 var VERSION = '4.8.0';
@@ -34,11 +34,11 @@ BenchmarkImpl.prototype.tearDown = function() {
 };
 
 BenchmarkImpl.prototype.render = function() {
-  ReactDOM.render(<div>{renderTree(this.a)}</div>, this.container);
+  render(<div>{renderTree(this.a)}</div>, this.container);
 };
 
 BenchmarkImpl.prototype.update = function() {
-  ReactDOM.render(<div>{renderTree(this.b)}</div>, this.container);
+  render(<div>{renderTree(this.b)}</div>, this.container);
 };
 
 document.addEventListener('DOMContentLoaded', function(e) {

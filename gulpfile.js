@@ -17,11 +17,7 @@ gulp.task('build', function(callback) {
       filename: 'bundle.js'
     },
     resolve: {
-      extensions: ['', '.js', '.jsx'],
-      alias: {
-        'react': 'preact-compat',
-        'react-dom': 'preact-compat'
-      }
+      extensions: ['', '.js', '.jsx']
     },
     module: {
       loaders: [{
