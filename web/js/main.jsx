@@ -3,7 +3,7 @@ import { h, Component, render } from 'preact';
 /** @jsx h */
 
 var NAME = 'Preact';
-var VERSION = '4.8.0';
+var VERSION = '5.0.0beta5';
 
 function renderTree(nodes) {
   var children = [];
