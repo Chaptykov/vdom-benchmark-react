@@ -1,5 +1,5 @@
 var benchmark = require('vdom-benchmark-base');
-import { h, Component, render } from 'preact';
+import React, { h, Component, render } from 'preact';
 /** @jsx h */
 
 var NAME = 'Preact';
